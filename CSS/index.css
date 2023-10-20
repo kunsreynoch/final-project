@@ -1,0 +1,310 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Battambang&family=Merriweather:wght@300&family=Nunito:wght@300;400;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Autour+One&family=Battambang&family=Merriweather:wght@300&family=Nunito:wght@300;400;600;700&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+.first{
+    border: 1px solid gray;
+    height: 100px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+/* .navbar{
+   background-color: rgb(107, 26, 26);
+   z-index: 1000;
+} */
+.box{
+    width: 70%;
+    /* height: 50%; */
+    /* background-color: rgb(255, 145, 0); */
+    position: relative;
+    margin-bottom: 20%;
+    /* border: 3px solid gray; */
+}
+.sign{
+       background-color: rgb(255, 196, 0);
+       font-family: "battambang";
+}
+.login-up{
+    background-color:gray;
+}
+.login{
+    padding: 40px;
+}
+.main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+    /* background-color: white; */
+    
+ 
+ 
+}
+i{
+    font-size: 25px;
+    position: absolute;
+    right: 0%;
+    top: 0%;
+}
+.navbar-brand img{
+    width: 90px;
+    height: 90px;
+    border-radius: 69px;
+    margin-left: 20px;
+    margin-top: -10px;
+}
+.navbar{
+    font-family: "batambang";
+    font-size: 20px;
+
+}
+ul li a{
+    padding-top: 10px;
+}
+.use{
+    width: 30%;
+    height: 20%;
+    margin-top: 30px;
+    margin-left: 40%;
+    
+}
+.use img{
+    width: 100px;
+    height: 100px;
+}
+.main1{
+    z-index: 1000;
+}
+.wapper{
+    display: flex;
+    
+}
+
+.main2{
+    width: 100%;
+    height: 300px;
+    /* background-color: brown; */
+}
+.text{
+    width: 70%;
+    /* height: 50%; */
+    /* background-color: aqua; */
+    margin: auto;
+    margin-top: 10%;
+}
+.text h3{
+    font-size: 60px;
+    font-family: "battambang";
+}
+.pic{
+    width: 100%;
+    height: 100%;
+    
+}
+.pic img{
+    width: 100%;
+    height: 80%;
+    border-radius: 90%;
+    margin-top: 20px
+}
+.text img{
+    width: 70px;
+    height: 70px;
+    border-radius: 70px;
+}
+.text1{
+    width: 100%;
+    margin: auto;
+    /* background-color: blue; */
+
+}
+.text1 img{
+    width: 80px;
+    height: 60px;
+}
+
+.box3{
+    border: 2px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+
+}
+.box3 i{
+    position: absolute;
+    font-size: 15px;
+    margin-top: 3px;
+    margin-right: 10px;
+}
+.pix{
+    width: 350px;
+    height: 330px;
+    border-radius: 50%;
+    margin: auto;
+    background-color: orange;
+    
+}
+.pix img{
+    width: 100%;
+    height: 90%;
+    border-radius: 50%;
+    margin-left: 13px;
+    margin-top: 10px;
+}
+.main3{
+    width: 100%;
+    height: 500px;
+    /* background-color: brown; */
+}
+.box-txt{
+    width: 100%;
+    height: 500px;
+    background-color: orange;
+    position: relative;
+}
+ .small-txt{
+    width: 70%;
+    /* height: 50%; */
+    /* background-color: aliceblue; */
+    margin-top:25%;
+    position: absolute;
+    left: 15%;
+}
+.small-txt h1{
+    text-align: center;
+    font-family: "battambang";
+    color: black;
+    font-size: 50px;
+}
+.box_pic{
+    width: 100%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+.box_pic img{
+    width: 100%;
+    height: 100%;
+}
+.main4{
+    width: 100%;
+    height: 650px;
+    position: relative;
+}
+.logo {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+   
+}
+.logo img{
+    width: 100%;
+    height: 650px;
+ 
+    
+}
+
+.big-txt{
+    position: absolute;
+    top: 30%;
+    right: 10%;
+    z-index: 1;
+
+    
+
+}
+.big-txt h3{
+    color: white;
+    font-family: "Authou One";
+    text-align: center;
+}
+.big-txt h1{
+    color: rgb(144, 29, 29);
+    font-family: "Battambang";
+    font-size: 50px;
+    z-index: 1000;
+}
+.big-txt h5{
+    color: white;
+    text-align: center;
+}
+.big-txt h6{
+    color: white;
+    text-align: center;
+}
+
+
+.main4 .big-pic:hover img{
+    color: black;
+
+}
+.box-overlay{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+}
+.main5{
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 95%;
+}
+.main6{
+    width: 95%;
+    border: 1px solid gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+
+
+}
+ul{
+    line-height: 50px;
+    margin-top: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+}
+li a{
+    font-size: 15px;
+    font-family: "Roboto";
+}
+
+.service{
+    width: 80%;
+    margin: auto;
+    
+}
+.service img{
+    width: 80%;
+    height: 300px;
+
+        
+}
+.main11 p{
+    font-size: 10px;
+}
+   
+
+
+
+
+
+
